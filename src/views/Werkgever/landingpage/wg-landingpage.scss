@@ -1,8 +1,10 @@
 /* zakelijk 1 */
 .wg-landingpage-img {
   position: absolute;
-  width: 685px;
-  height: 314px;
+  //use full screen
 
-  background: url(zakelijk.jpg);
+  width: 100%;
+  height: 100%;
+
+  background-color: rgb(159, 159, 255);
 }
