@@ -1,7 +1,7 @@
 import React from "react";
 
-function wglandingpage() {
-  return <div>landingpage</div>;
-}
+const Wglandingpage = () => {
+  return <div>landing page</div>;
+};
 
-export default wglandingpage;
+export default Wglandingpage;
