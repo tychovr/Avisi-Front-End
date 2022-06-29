@@ -1,0 +1,33 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 20px;
+
+  input {
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 30px;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  input,
+  button {
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+  }
+
+  button {
+    border-radius: 30px;
+    background-color: var(--main-orange);
+    color: white;
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
