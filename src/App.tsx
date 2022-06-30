@@ -15,18 +15,19 @@ function App() {
     <div className="App">
       <Profile />
       <Routes>
-<<<<<<< HEAD
+      <<<<<<< HEAD
         <Route path="/" element={<Layout />}></Route>
 =======
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-<<<<<<< HEAD
+
+          <<<<<<< HEAD
           <Route path="werkgever" element={<Wglandingpage />} />
 =======
           <Route path="/vacancy-search" element={<VacancySearch/>} />
 >>>>>>> 5a26f878183d4edb4e1ecaaf8dde18865e4ea55a
         </Route>
->>>>>>> e9e1c1686a5a5b0aea630b012d8a8ce29d4a1719
+        >>>>>>> e9e1c1686a5a5b0aea630b012d8a8ce29d4a1719
       </Routes>
     </div>
   );
