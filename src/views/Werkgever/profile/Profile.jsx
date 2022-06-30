@@ -1,12 +1,13 @@
 import React from "react";
 import Navbar from "../Components/navbar/Navbar";
+import Navigation from "../../../components/Navigation/Navigation";
 import "./profile.scss";
 import profilepic from "../images/profilepic.jpg";
 
 const Profile = () => {
   return (
     <div className="profile">
-      <Navbar />
+      <Navigation />
       <div className="profile-container">
         <div className="top-container">
           <div className="img-container">

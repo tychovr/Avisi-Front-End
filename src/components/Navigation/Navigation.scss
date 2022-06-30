@@ -1,0 +1,21 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  .refs {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      font-weight: bold;
+      color: var(--dark-blue);
+    }
+  }
+}
