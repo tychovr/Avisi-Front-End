@@ -1,17 +1,14 @@
 import React from "react";
-import Navbar from "../Components/navbar/Navbar";
-import Navigation from "../../../components/Navigation/Navigation";
 import "./profile.scss";
-import profilepic from "../images/profilepic.jpg";
+import profileimg from "./img/profileimg.jpg";
 
 const Profile = () => {
   return (
     <div className="profile">
-      <Navigation />
       <div className="profile-container">
         <div className="top-container">
           <div className="img-container">
-            <img src={profilepic} alt="" />
+            <img src={profileimg} alt="" />
           </div>
           <div className="top-info">
             <h1>John Doe</h1>
