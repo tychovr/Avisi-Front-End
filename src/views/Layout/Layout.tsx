@@ -14,7 +14,6 @@ const Layout = () => {
           <Link to="/werkgever">Werkgever</Link>
         </li>
       </ul>
-
       <Navigation />
       <Outlet />
     </>
