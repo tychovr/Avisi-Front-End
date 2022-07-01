@@ -1,11 +1,11 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import "./App.scss";
-import Home from "./views/Home/Home";
-import Layout from "./views/Layout/Layout";
+import Home from "./pages/Home/Home";
+import Layout from "./pages/Layout/Layout";
 
 function App() {
-  return (
+  return (  
     <div className="App">
       <Routes>
         <Route path="/" element={<Layout />}>
