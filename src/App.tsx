@@ -1,11 +1,14 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+<<<<<<< HEAD
 import VacancySearch from "./views/VacancySearch/VacancySearch";
 import Wglandingpage from "./views/Werkgever/landingpage/wg-landingpage";
+=======
+import VacancySearch from "./views/VacancySearch/VacancySearch"
+>>>>>>> c3c780aaf8f806a5e11bc6296e86d710d09bf884
 import "./App.scss";
 import Home from "./views/Home/Home";
 import Layout from "./views/Layout/Layout";
-import Profile from "./views/Werkgever/profile/Profile";
 
 function App() {
   return (
